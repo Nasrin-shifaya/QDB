@@ -37,7 +37,8 @@ public class PractiseController {
 	@Autowired
 	PractiseService service;
 	
-	@PostMapping("/upload") 
+	//mapping starts
+	@PostMapping("/upload")
 	  public FileManipulate fileUpload(@RequestBody MultipartFile file ) throws IOException {
 		 //String fileName = System.getProperty("user.dir") + "/Uploads" + File.separator + file.getOriginalFilename();
 	 
